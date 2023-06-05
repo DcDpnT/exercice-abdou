@@ -1,0 +1,25 @@
+* {
+    margin: O;
+    padding: 0;
+    }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    object-fit: cover;
+    }
+      
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+      
+.grid-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    
+    }
